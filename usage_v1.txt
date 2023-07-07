@@ -1,0 +1,2 @@
+First add songs to databse folder which willl be created shortly.
+You can save the playlist to playlist folder and load it from there when required
