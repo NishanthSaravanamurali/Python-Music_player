@@ -89,7 +89,7 @@ def startapp():
       try:
               os.mkdir(default_database_directory_path)
               os.mkdir(default_playlist_directory_path)
-              messagebox.showinfo("Thank you", "Thank you for choosing music player.\nFirst add songs to databse folder which will be created shortly.\nYou can save the playlist to playlist folder and load it from there when required")
+              messagebox.showinfo("Thank you", "Thank you for choosing music player.\nFirst add songs to database folder which will be created shortly.\nYou can save the playlist to playlist folder and load it from there when required")
               import main3
       except FileExistsError:
                 import main3
